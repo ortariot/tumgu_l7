@@ -16,6 +16,9 @@ PyJWT==2.10.1
 redis==5.2.1
 requests==2.32.3
 SQLAlchemy==2.0.38
+pydantic_settings==2.8.1
+pytest==8.3.5
+pytest-asyncio==0.25.3
 ```
 
 ## to start:
@@ -32,3 +35,8 @@ SQLAlchemy==2.0.38
 ## celery start:
 
 - celery -A tasker.task worker --loglevel=info
+
+
+## tests start:
+
+- pytest tests/src/ 
